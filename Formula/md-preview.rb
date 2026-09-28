@@ -3,11 +3,11 @@
 class MdPreview < Formula
   desc "Markdown ファイルを macOS のネイティブウィンドウで表示するツール"
   homepage "https://github.com/maru3460/md-preview"
-  url "https://github.com/maru3460/md-preview/releases/download/v0.1.20/md-preview-v0.1.20-macos-universal.tar.gz"
-  sha256 "08656eddeb77e0c85e3bfdd11fcc671959008502dd46669644bb32c269a8e174"
+  url "https://github.com/maru3460/md-preview/releases/download/v0.2.0/md-preview-v0.2.0-macos-universal.tar.gz"
+  sha256 "6dc520fa1ad442efb824b74703acdb405c3fe365a5ae3137f62461be4f96f6e2"
   # url からも同じ版が読み取れるので brew audit --strict は redundant と言うが、
   # ファイル名の付け方を変えたときに黙って別の版として扱われる方が怖いので明示する。
-  version "0.1.20"
+  version "0.2.0"
   license "MIT"
 
   depends_on :macos
